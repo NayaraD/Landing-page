@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none; 
+}
+
+.first {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    display: flex;
+}
+
+Pesquisar flex wrap 
+Pesquisar como nomear classes
