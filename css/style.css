@@ -30,6 +30,15 @@ a {
     border-radius: 5%;
 }
 
+.image2 {
+    border: 5px pink solid;
+    border-radius: 5%;
+}
+
+.text {
+    text-align: center;
+}
+
 .left {
     display: flex;
     flex-direction: column;
@@ -51,9 +60,7 @@ a {
     gap: 15px;
 }
 
-.image2 {
-    border: 5px pink;
-}
+
 
 .info {
     display: flex;
@@ -117,6 +124,7 @@ a {
 .font ,
 button {
     font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .about {
