@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-around;
-    background-color: #faf894;
+    background-color: #ffcb77;
     align-items: center;
 }
 
@@ -17,7 +17,7 @@ a {
 
 .first {
     display: flex;
-    background-color: #faf894;
+    background-color: #ffcb77;
     justify-content: center;
     gap: 50px;
     padding-top: 60px;
@@ -25,13 +25,13 @@ a {
 }
 
 .image1 {
-    border: 5px pink;
+    border: 5px #fe6d73;
     border-style: dashed;
     border-radius: 5%;
 }
 
 .image2 {
-    border: 5px pink solid;
+    border: 5px #ffcb77 solid;
     border-radius: 5%;
 }
 
@@ -51,6 +51,7 @@ a {
 
 .second {
     justify-content: center;
+    background-color: #fef9ef;
 }
 
 .container {
@@ -69,7 +70,7 @@ a {
 }
 
 .third {
-    background-color: rgb(217, 235, 229);
+    background-color: #227c9d;
     padding: 60px;
     display: flex;
     justify-content: center;
@@ -98,18 +99,19 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fef9ef;
 }
 
 .box {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #5f9ea0;
+    background-color: #fe6d73;
     width: 1100px;
     height: 100px;
     margin-top: 50px;
     margin-bottom: 50px;
-    border: 5px cadetblue;
+    border: 5px #fe6d73;
     border-radius: 5px;
 }
 
@@ -117,7 +119,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #faf894;
+    background-color: #ffcb77;
     padding: 30px;
 }
 
@@ -134,7 +136,8 @@ button {
 }
 
 .link ,
-.description {
+.description,
+.call {
     font-size: 18px;
 }
 
@@ -145,7 +148,7 @@ button {
 
 .info {
     font-size: 36px;
-    color: #faf894
+    color: #fe6d73
 }
 
 .quote {
@@ -159,10 +162,10 @@ body {
 
 .button1 {
     font-size: 20px;
-    background-color: pink;
-    border: 5px pink;
+    background-color: #fe6d73;
+    border: 5px #fe6d73;
     padding: 5px 20px;
-    border-radius: 5%;
+    border-radius: 5px;
     text-decoration: none;
     color: white;
 }
@@ -171,7 +174,32 @@ body {
 .link ,
 .about ,
 .description {
-    color:#6c81af
+    color:#227c9d;
 }
 
+a:link {
+    color: #227c9d;
+    text-decoration: none;
+}
 
+a:visited {
+    color: #227c9d;
+    text-decoration: none;
+}
+
+.button2 {
+    font-size: 20px;
+    background-color: #fe6d73;
+    border: 5px #fef9ef solid;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fef9ef;
+}
+
+.call ,
+.desc ,
+.quote ,
+.autor {
+    color: #fef9ef;
+}
