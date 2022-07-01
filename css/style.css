@@ -3,6 +3,7 @@
     justify-content: space-around;
     background-color: #ffcb77;
     align-items: center;
+    flex-shrink: 1fr 1fr;
 }
 
 ul {
@@ -24,6 +25,17 @@ a {
     padding-bottom: 60px;
 }
 
+@media (max-width: 600px) {
+    .header ,
+    .first ,
+    .second ,
+    .third ,
+    .fourth ,
+    .footer,
+    .image1 {
+      flex-direction: column;
+    }
+  }
 .image1 {
     border: 5px #fe6d73;
     border-style: dashed;
@@ -204,4 +216,9 @@ a:visited {
 .quote ,
 .autor {
     color: #fef9ef;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
